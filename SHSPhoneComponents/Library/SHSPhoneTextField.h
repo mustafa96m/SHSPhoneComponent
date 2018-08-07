@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "SHSPhoneLogic.h"
+#import "SHSSelctor.h"
 #import "SHSPhoneNumberFormatter.h"
 #import "SHSPhoneNumberFormatter+UserConfig.h"
+
 
 /**
  Simple UITextField subclass to handle phone numbers formats
@@ -18,7 +20,13 @@
 @interface SHSPhoneTextField : UITextField
 {
     SHSPhoneLogic *logicDelegate;
+    NSArray<SHSSelctor *> *selectors;
 }
+
+/**
+Register Function
+*/
+-(void)registerSelector:(SHSSelctor*)selector;
 
 /**
  SHSPhoneNumberFormatter instance.

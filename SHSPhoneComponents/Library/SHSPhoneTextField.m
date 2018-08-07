@@ -72,6 +72,15 @@
     return [self.formatter digitOnlyString:[self.text stringByReplacingOccurrencesOfString:self.formatter.prefix withString:@""]];
 }
 
+-(BOOL)canPerformAction:(SEL)action withSender:(id)sender{
+    for (SHSSelctor *selector in selectors) {
+        if (selector.selector == action) {
+            return YES;
+        }
+    }
+    return NO;
+}
+
 @end
 
 

@@ -18,6 +18,8 @@
 		3F26EAE21A6EE64F0061C80B /* SHSPhoneNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26EAD71A6EE64F0061C80B /* SHSPhoneNumberFormatter.m */; };
 		3F26EAE31A6EE64F0061C80B /* SHSPhoneTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F26EAD81A6EE64F0061C80B /* SHSPhoneTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F26EAE41A6EE64F0061C80B /* SHSPhoneTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F26EAD91A6EE64F0061C80B /* SHSPhoneTextField.m */; };
+		45AA3CFA21198FA5004EFD2D /* SHSSelctor.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AA3CF821198FA5004EFD2D /* SHSSelctor.h */; };
+		45AA3CFB21198FA5004EFD2D /* SHSSelctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AA3CF921198FA5004EFD2D /* SHSSelctor.m */; };
 		BEF0E2711A6E6FC400A918D5 /* SHSPhoneComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF0E2701A6E6FC400A918D5 /* SHSPhoneComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF0E29F1A6E700800A918D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF0E29E1A6E700800A918D5 /* UIKit.framework */; };
 		BEF0E2A11A6E700D00A918D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF0E2A01A6E700D00A918D5 /* Foundation.framework */; };
@@ -36,6 +38,8 @@
 		3F26EAD71A6EE64F0061C80B /* SHSPhoneNumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSPhoneNumberFormatter.m; sourceTree = "<group>"; };
 		3F26EAD81A6EE64F0061C80B /* SHSPhoneTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSPhoneTextField.h; sourceTree = "<group>"; };
 		3F26EAD91A6EE64F0061C80B /* SHSPhoneTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSPhoneTextField.m; sourceTree = "<group>"; };
+		45AA3CF821198FA5004EFD2D /* SHSSelctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHSSelctor.h; sourceTree = "<group>"; };
+		45AA3CF921198FA5004EFD2D /* SHSSelctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHSSelctor.m; sourceTree = "<group>"; };
 		BEF0E26B1A6E6FC400A918D5 /* SHSPhoneComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHSPhoneComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF0E26F1A6E6FC400A918D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF0E2701A6E6FC400A918D5 /* SHSPhoneComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHSPhoneComponent.h; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 		3F26EACE1A6EE64F0061C80B /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				45AA3CF821198FA5004EFD2D /* SHSSelctor.h */,
+				45AA3CF921198FA5004EFD2D /* SHSSelctor.m */,
 				3F26EACF1A6EE64F0061C80B /* SHSFlagAccessoryView.h */,
 				3F26EAD01A6EE64F0061C80B /* SHSFlagAccessoryView.m */,
 				3F26EAD11A6EE64F0061C80B /* SHSPhoneLibrary.h */,
@@ -124,6 +130,7 @@
 				BEF0E2711A6E6FC400A918D5 /* SHSPhoneComponent.h in Headers */,
 				3F26EAE11A6EE64F0061C80B /* SHSPhoneNumberFormatter.h in Headers */,
 				3F26EADF1A6EE64F0061C80B /* SHSPhoneNumberFormatter+UserConfig.h in Headers */,
+				45AA3CFA21198FA5004EFD2D /* SHSSelctor.h in Headers */,
 				3F26EADD1A6EE64F0061C80B /* SHSPhoneLogic.h in Headers */,
 				3F26EADA1A6EE64F0061C80B /* SHSFlagAccessoryView.h in Headers */,
 				3F26EADC1A6EE64F0061C80B /* SHSPhoneLibrary.h in Headers */,
@@ -201,6 +208,7 @@
 				3F26EADE1A6EE64F0061C80B /* SHSPhoneLogic.m in Sources */,
 				3F26EAE21A6EE64F0061C80B /* SHSPhoneNumberFormatter.m in Sources */,
 				3F26EADB1A6EE64F0061C80B /* SHSFlagAccessoryView.m in Sources */,
+				45AA3CFB21198FA5004EFD2D /* SHSSelctor.m in Sources */,
 				3F26EAE01A6EE64F0061C80B /* SHSPhoneNumberFormatter+UserConfig.m in Sources */,
 				3F26EAE41A6EE64F0061C80B /* SHSPhoneTextField.m in Sources */,
 			);
