@@ -72,6 +72,12 @@
     return [self.formatter digitOnlyString:[self.text stringByReplacingOccurrencesOfString:self.formatter.prefix withString:@""]];
 }
 
+-(void)registerSelector:(SHSSelctor *)selector{
+    NSMutableArray *m_selectors = [[NSMutableArray alloc] initWithArray:selectors];
+    [m_selectors addObject:selector];
+    selectors = [m_selectors copy];
+}
+
 -(BOOL)canPerformAction:(SEL)action withSender:(id)sender{
     for (SHSSelctor *selector in selectors) {
         if (selector.selector == action) {
